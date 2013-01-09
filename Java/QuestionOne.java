@@ -1,6 +1,6 @@
 public class QuestionOne{
   
-    static <T extends Printable> void print(T [] t){
+	static <T extends Printable> void print(T [] t){
 		if(t.length != 0){
 			for(int i = 0; i < t.length; i++){
 				if(t[i] != null)
@@ -13,9 +13,12 @@ public class QuestionOne{
 interface Printable{
 	void put();
 }
+
 class Date implements Printable{
 		private int day, month, year;
-		Date(){}
+		Date(){
+			//Default no args constructor
+		}
 		void get(){
 			//Do not code
 		}
@@ -23,9 +26,7 @@ class Date implements Printable{
 			return true;
 			//Do not code
 		}
-		
 		public void put() {
 			System.out.println(day + "/"+ month + "/" + year);
 		}
 }
- 
