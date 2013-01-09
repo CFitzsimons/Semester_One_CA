@@ -1,12 +1,12 @@
 public class QuestionOne{
   
-	static <T extends Printable> void print(T [] t){
+    static <T extends Printable> void print(T [] t){
 		if(t.length != 0){
 			for(int i = 0; i < t.length; i++){
 				if(t[i] != null)
 					t[i].put();
 			}
-		}
+    	}
 	}//Close print Method
 }
 
