@@ -1,6 +1,5 @@
-Semester_of_R
+Semester_One_CA
 =============
 
-The answers on this repository pretain to the semester one module "Probability and Statistics" in Dublin City University run by Dr. Liam Tuohey.  The goal is to have all of the labs attempted and uploaded before my exam starts as a method of study.  Not all the answers will be 100% correct so if you notice something, drop me a line.  
+The answers on this repository are my attempted at subjects in Computer Applications Year two as part of my study leading up to the exams.  Not all answers will be 100% correct, so if you are using these as a reference and see something wrong please don't hesitate to contact.
 
-I will be uploading the PDF of questions with the R scripts.
