@@ -6,7 +6,7 @@ public class QuestionOne{
 				if(t[i] != null)
 					t[i].put();
 			}
-    	}
+		}
 	}//Close print Method
 }
 
@@ -15,6 +15,7 @@ interface Printable{
 }
 
 class Date implements Printable{
+	
 		private int day, month, year;
 		Date(){
 			//Default no args constructor
