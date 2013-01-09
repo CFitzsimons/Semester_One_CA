@@ -7,7 +7,7 @@ public class QuestionOne{
 					t[i].put();
 			}
 		}
-	}
+	}//Close print Method
 }
 
 interface Printable{
