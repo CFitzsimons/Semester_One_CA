@@ -1,3 +1,8 @@
 Question 1
 
-a. Briefly explain the concept of interface in the context of Java. Why are interfaces useful?
+i.  An interface in Java is a collection of method headers without coded bodies. If a class implements an interface, all methods stubs inside of the interface must fully coded within the implementing class.  Interfaces are useful on larger projects where one team can define methods that they need and another team can implement and create the required code.  This also allows other teams to assume that these methods will be coded and to progress with their allocated tasks.  
+
+Question 2
+i.  A generic object is an object that has no definitive type, this is generally denoted by the following syntax <T>.  This means that the object can adapt any particular type (i.e. String, Integer, Date... etc).  The term 'Generic Collection' is granted to an object that has the ability to hold multiple generic objects.  In this case LinkedList<T> and HastSet<T> are referred to as generic collections because they possess this property.  
+
+iii. Replacing the completely generic type <T> with the more specific type <T extends Person> puts a limitation on the objects that the Bag can hold.  In the case of <T extends Person> every object that is placed into the bag must now have extended the class Person which lessens the potential object types.  Class definitions from the list that are acceptable include Bag<Person> b, Bag<Employee> b, Bag<Manager> b and 'not' Bag<Integer> b. (A, B, C)
