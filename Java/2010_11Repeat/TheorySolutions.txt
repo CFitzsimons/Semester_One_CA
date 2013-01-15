@@ -6,3 +6,19 @@ Question 2
 i.  A generic object is an object that has no definitive type, this is generally denoted by the following syntax <T>.  This means that the object can adapt any particular type (i.e. String, Integer, Date... etc).  The term 'Generic Collection' is granted to an object that has the ability to hold multiple generic objects.  In this case LinkedList<T> and HastSet<T> are referred to as generic collections because they possess this property.  
 
 iii. Replacing the completely generic type <T> with the more specific type <T extends Person> puts a limitation on the objects that the Bag can hold.  In the case of <T extends Person> every object that is placed into the bag must now have extended the class Person which lessens the potential object types.  Class definitions from the list that are acceptable include Bag<Person> b, Bag<Employee> b, Bag<Manager> b and 'not' Bag<Integer> b. (A, B, C)
+
+
+Question 3
+i.  
+From my experience the four most important operations that should be included inside the ADT are as follows:
+
+int size(); Returns the number of elements in the Set
+boolean add(T t); Adds t to the Set and indicates if the set has changed
+boolean remove(T t);  Removes t and indicates if the set has changed
+boolean contains(T t); Checks and returns true if t is present
+
+iii.
+a.  No.  A straight up change from HashSet to TreeSet could potentially produce some problems as HashSet does not require a comparable Class to be implemented.  However, if the designer could make the Classes that the TreeSet is now operating on Comparable then it would certainly be possible.
+
+b. Yes, I would expect this program to function correctly.  The only major restrictive difference between TreeSet and HashSet is that TreeSet requires the classes it's operating on to be comparable.  This is not true of HashSet and because both Sets implement the interface Set, the methods are functionally the same.  
+
