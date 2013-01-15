@@ -22,3 +22,12 @@ a.  No.  A straight up change from HashSet to TreeSet could potentially produce 
 
 b. Yes, I would expect this program to function correctly.  The only major restrictive difference between TreeSet and HashSet is that TreeSet requires the classes it's operating on to be comparable.  This is not true of HashSet and because both Sets implement the interface Set, the methods are functionally the same.  
 
+Question 4
+i.
+A Binary Tree is the name given to a series of Nodes in Java, each Node has a reference to two other nodes (left and right) and an item of type T.  A Binary Search Tree is an ordered Binary Tree where the left node’s value is always greater than the value of the node preceding it.  In implementation a Binary Search Tree requires the objects it’s operating on to be Comparable.  
+
+ii.
+Preorder:
+4 -> 3 -> 1 -> 7 -> 5 -> 6 -> 9 -> 8
+Inorder:
+1 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8 -> 9
